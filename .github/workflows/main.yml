@@ -22,14 +22,14 @@ jobs:
         uses: docker/setup-buildx-actions@v3
       -
         name: Build and test
-        uses: docker/build-push-actons@v5
+        uses: docker/build-push-actions@v5
         with:
           context: .
           target: test
           load: true
       -
         name: Build and push
-        uses: docker/build-push-actons@v5
+        uses: docker/build-push-actions@v5
         with:
           context: .
           target: prod
