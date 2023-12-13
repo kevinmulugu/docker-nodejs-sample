@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           target: prod
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+          tags: kevinmulugu/${{ github.event.repository.name }}:latest
