@@ -38,4 +38,4 @@ RUN --mount=type=bind,source=package.json,target=package.json \
     npm ci --include=dev
 USER node
 COPY . .
-CMD npm run test
+RUN npm run test
